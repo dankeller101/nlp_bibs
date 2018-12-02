@@ -19,15 +19,26 @@ the surveys are organized into reports and slides.
 ***
 <h4>Reports</h4>
 
-Neural information retrieval: at the end of the early years (2018, IR) <a href="https://link.springer.com/article/10.1007/s10791-017-9321-y">[paper]</a><br/>
-An Introduction to Neural Information Retrieval (2017, FnTIR) <a href="https://www.microsoft.com/en-us/research/publication/introduction-neural-information-retrieval/">[paper]</a></br>
-Neural Models for Information Retrieval (2017, arXiv) <a href="https://arxiv.org/pdf/1705.01509.pdf">[paper]</a></br>
+<b>Neural information retrieval: at the end of the early years</b> (2018, IR) <a href="https://link.springer.com/article/10.1007/s10791-017-9321-y">[paper]</a><br/>
+Kezban Dilek, Ye Zhang, Ismail Sengor Altingovde, Md Mustafizur Rahman, Pinar Karagoz, Alex Braylan, Brandon Dang, Heng-Lu Chang, Henna Kim, Quinten McNamara, Aaron Angert, Edward Banner, Vivek Khetan, Tyler McDonnell, An Thanh Nguyen, Dan Xu, Byron C. Wallace, Maarten de Rijke, Matthew Lease
+
+
+<b>An Introduction to Neural Information Retrieval</b> (2017, FnTIR) <a href="https://www.microsoft.com/en-us/research/publication/introduction-neural-information-retrieval/">[paper]</a></br>
+Bhaskar Mitra, Nick Craswell
+
+
+<b>Neural Models for Information Retrieval</b> (2017, arXiv) <a href="https://arxiv.org/pdf/1705.01509.pdf">[paper]</a></br>
+Bhaskar Mitra, Nick Craswell
+
 
 ***
 <h4>Slides</h4>
 
-Neural Networks for Information Retrieval (2018) <a href="http://nn4ir.com/">[slides]</a></br>
-Neural Text Embeddings for Information Retrieval (2017, WSDM) <a href="https://www.slideshare.net/BhaskarMitra3/neural-text-embeddings-for-information-retrieval-wsdm-2017">[slides]</a></br>
+<b>Neural Networks for Information Retrieval</b> (2018) <a href="http://nn4ir.com/">[slides]</a></br>
+Tom Kenter, Alexey Borisov, Christophe Van Gysel, Mostafa Dehghani,and Maarten de Rijke, and Bhaskar Mitra
+
+<b>Neural Text Embeddings for Information Retrieval</b> (2017, WSDM) <a href="https://www.slideshare.net/BhaskarMitra3/neural-text-embeddings-for-information-retrieval-wsdm-2017">[slides]</a></br>
+Bhaskar Mitra, Nick Craswell
 
 
 <h3>Papers of Note</h3>
@@ -36,7 +47,8 @@ Papers are annotated with brief synopsis of the main lessons learned when I read
 
 ***
 
-Distributed Representations of Sentences and Documents (2014, ICML) <a href="https://arxiv.org/abs/1405.4053">[paper]</a><br/>
+<b>Distributed Representations of Sentences and Documents</b> (2014, ICML) <a href="https://arxiv.org/abs/1405.4053">[paper]</a><br/>
+Quoc V. Le, Tomas Mikolov
 
 Synopsis:  Aims to improve upon bag-of-word embeddings by building new fixed
 length representations that can be formed from variable-length pieces of text.  
@@ -47,7 +59,8 @@ analysis tasks, and they are able to achieve state of the art.
 
 ***
 
-Embedding-based Query Language Models (2016a, ICTIR) <a href="https://ciir-publications.cs.umass.edu/getpdf.php?id=1225">[paper]</a><br/>
+<b>Embedding-based Query Language Models</b> (2016a, ICTIR) <a href="https://ciir-publications.cs.umass.edu/getpdf.php?id=1225">[paper]</a><br/>
+Hamed Zamani and W. Bruce Croft
 
 Synopsis:  This paper applies word embeddings to the task of ad-hoc retrieval.
 A major problem in ad-hoc retrieval is vocabulary mismatch, wherein the words
@@ -61,7 +74,8 @@ outperform competitive baselines in many tasks.
 
 ***
 
-A Deep Relevance Matching Model for Ad-hoc Retrieval (2016, CIKM) <a href="https://arxiv.org/pdf/1711.08611.pdf">[paper]</a><br/>
+<b>A Deep Relevance Matching Model for Ad-hoc Retrieval</b> (2016, CIKM) <a href="https://arxiv.org/pdf/1711.08611.pdf">[paper]</a><br/>
+Jiafeng Guo, Yixing Fan, Qingyao Ai, W. Bruce Croft
 
 Synopsis:  In this paper, the authors propose a new model, DRMM, for ad-hoc retrieval.  
 While other papers tried to model ad-hoc retrieval as a semantic matching problem
@@ -75,7 +89,8 @@ and this model outperforms competitive baselines for almost all tasks tested.
 
 ***
 
-Analysis of the Paragraph Vector Model for Information Retrieval (2016, ICTIR) <a href="https://dl.acm.org/citation.cfm?id=2970409">[paper]</a><br/>
+<b>Analysis of the Paragraph Vector Model for Information Retrieval</b> (2016, ICTIR) <a href="https://dl.acm.org/citation.cfm?id=2970409">[paper]</a><br/>
+Qingyao Ai, Liu Yang, Jiafeng Guo, W. Bruce Croft
 
 Synopsis:  Due to the popularity of the paragraph vector embeddings proposed by
 the paper above, this paper tries to analyze the effectiveness of PV embeddings
@@ -89,7 +104,8 @@ on the tasks they previously tested.
 
 ***
 
-DeepRank: A New Deep Architecture for Relevance Ranking in Information Retrieval (2017, CIKM) <a href="https://arxiv.org/pdf/1710.05649.pdf">[paper]</a><br/>
+<b>DeepRank: A New Deep Architecture for Relevance Ranking in Information Retrieval</b> (2017, CIKM) <a href="https://arxiv.org/pdf/1710.05649.pdf">[paper]</a><br/>
+Liang Pang, Yanyan Lan, Jiafeng Guo, Jun Xu, Jingfang Xu, Xueqi Cheng
 
 Synopsis:  This paper proposes a new model, DeepRank, that builds off of the previously
 developed DRMM and DSSM.  DeepRank attempts to model how humans themselves would
@@ -101,7 +117,8 @@ human behavior paid off in some ways, as this model outperforms all other baseli
 
 ***
 
-MatchZoo: A Toolkit for Deep Text (2017, SIGIR Workshop on Neural IR) <a href="https://arxiv.org/pdf/1707.07270.pdf">[paper]</a><br/>
+<b>MatchZoo: A Toolkit for Deep Text</b> (2017, SIGIR Workshop on Neural IR) <a href="https://arxiv.org/pdf/1707.07270.pdf">[paper]</a><br/>
+Yixing Fan, Liang Pang, JianPeng Hou, Jiafeng Guo, Yanyan Lan, Xueqi Cheng
 
 Synopsis:  This paper proposes a toolkit for building deep learning text matching
 systems.  They construct a system to uniformly process data, a layer based
@@ -109,7 +126,8 @@ model building process, and a suite of tools that can be used to evaluate models
 
 ***
 
-Neural Ranking Models with Weak Supervision (2017, SIGIR) <a href="https://arxiv.org/pdf/1704.08803.pdf">[paper]</a><br/>
+<b>Neural Ranking Models with Weak Supervision</b> (2017, SIGIR) <a href="https://arxiv.org/pdf/1704.08803.pdf">[paper]</a><br/>
+Mostafa Dehghani, Hamed Zamani, Aliaksei Severyn, Jaap Kamps, W. Bruce Croft
 
 Synopsis:  This paper proposes using weak supervision for information retrieval.
 While unsupervised learning is challenging in IR due to the complexity of relevance
@@ -121,7 +139,8 @@ can generate performance gains by pre-training supervised models on weakly super
 
 ***
 
-Neural Ranking Models with Multiple Document Fields (2017, WSDM) <a href="https://arxiv.org/pdf/1711.09174.pdf">[paper]</a><br/>
+<b>Neural Ranking Models with Multiple Document Fields</b> (2017, WSDM) <a href="https://arxiv.org/pdf/1711.09174.pdf">[paper]</a><br/>
+Hamed Zamani, Bhaskar Mitra, Xia Song, Nick Craswell, Saurabh Tiwary
 
 Synopsis:  This paper proposes a model that uses neural nets to do relevance
 matching using every field of a document.  The primary contribution of this paper
