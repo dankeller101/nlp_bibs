@@ -6,6 +6,8 @@ Neural Information Retrieval
 
 Daniel Keller
 
+With questions or concerns, please e-mail daniel.keller@yale.edu
+
 <h3>Introduction</h3>
 
 Neural Information Retrieval is an exciting space that is currently developing.
