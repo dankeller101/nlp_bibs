@@ -16,13 +16,14 @@ Please use these curated resources as a way to start reading about the field.
 Here is collected variety of surveys.  Depending on which form of survey you prefer,
 the surveys are organized into reports and slides.
 
-
+***
 <h4>Reports</h4>
 
 Neural information retrieval: at the end of the early years (2018) <a href="https://link.springer.com/article/10.1007/s10791-017-9321-y">[paper]</a><br/>
 An Introduction to Neural Information Retrieval (2017) <a href="https://www.microsoft.com/en-us/research/publication/introduction-neural-information-retrieval/">[paper]</a></br>
 Neural Models for Information Retrieval (2017) <a href="https://arxiv.org/pdf/1705.01509.pdf">[paper]</a></br>
 
+***
 <h4>Slides</h4>
 
 Neural Networks for Information Retrieval (2018) <a href="http://nn4ir.com/">[slides]</a></br>
@@ -33,6 +34,8 @@ Neural Text Embeddings for Information Retrieval (2017) <a href="https://www.sli
 
 Papers are annotated with brief synopsis of the main lessons learned when I read them.
 
+***
+
 Distributed Representations of Sentences and Documents (2014) <a href="https://arxiv.org/abs/1405.4053">[paper]</a><br/>
 
 Synopsis:  Aims to improve upon bag-of-word embeddings by building new fixed
@@ -41,6 +44,8 @@ Additionally, these new embeddings, called Paragraph Vectors, learn on the entir
 document at once, leading them to learn the ordering and semantics of words.  These
 vectors are then used by the authors on several text classification and sentiment
 analysis tasks, and they are able to achieve state of the art.
+
+***
 
 Embedding-based Query Language Models (2016a) <a href="https://ciir-publications.cs.umass.edu/getpdf.php?id=1225">[paper]</a><br/>
 
@@ -54,6 +59,8 @@ query terms and the terms used in documents, avoiding the vocabulary mismatch pr
 They then construct several models that use embeddings, and these models significantly
 outperform competitive baselines in many tasks.
 
+***
+
 A Deep Relevance Matching Model for Ad-hoc Retrieval (2016) <a href="https://arxiv.org/pdf/1711.08611.pdf">[paper]</a><br/>
 
 Synopsis:  In this paper, the authors propose a new model, DRMM, for ad-hoc retrieval.  
@@ -65,6 +72,8 @@ of other features, such as query term importance).  They then construct a deep
 learning model that tries to address ad-hoc retrieval as a relevance matching problem
 by using matching histogram mapping, a feed forward matching network, and a term gating network,
 and this model outperforms competitive baselines for almost all tasks tested.
+
+***
 
 Analysis of the Paragraph Vector Model for Information Retrieval (2016) <a href="https://dl.acm.org/citation.cfm?id=2970409">[paper]</a><br/>
 
@@ -78,6 +87,8 @@ and are unable to capture word-substitution relationships.  They propose several
 on the PV model, and then show how these improvements lead to improved performance
 on the tasks they previously tested.
 
+***
+
 DeepRank: A New Deep Architecture for Relevance Ranking in Information Retrieval (2017) <a href="https://arxiv.org/pdf/1710.05649.pdf">[paper]</a><br/>
 
 Synopsis:  This paper proposes a new model, DeepRank, that builds off of the previously
@@ -88,11 +99,15 @@ matching network that learns proximity data from the gathered relevant contexts,
 and then finally feeds into an aggregation network.  Clearly, trying to model
 human behavior paid off in some ways, as this model outperforms all other baselines.
 
+***
+
 MatchZoo: A Toolkit for Deep Text (2017) <a href="https://arxiv.org/pdf/1707.07270.pdf">[paper]</a><br/>
 
 Synopsis:  This paper proposes a toolkit for building deep learning text matching
 systems.  They construct a system to uniformly process data, a layer based
 model building process, and a suite of tools that can be used to evaluate models.
+
+***
 
 Neural Ranking Models with Weak Supervision (2017) <a href="https://arxiv.org/pdf/1704.08803.pdf">[paper]</a><br/>
 
@@ -103,6 +118,8 @@ IR model BM25 as a weak supervision signal.  They then train a simple model base
 on feed forward networks to learn from the weakly supervised data, and find that
 the model outperforms the BM25 baseline.  Additionally, they find that they
 can generate performance gains by pre-training supervised models on weakly supervised data.
+
+***
 
 Neural Ranking Models with Multiple Document Fields (2018) <a href="https://arxiv.org/pdf/1711.09174.pdf">[paper]</a><br/>
 
