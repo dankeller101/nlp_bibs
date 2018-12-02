@@ -116,6 +116,8 @@ These techniques significantly improve the performance of the ranker, and ideall
 should be used in future neural IR models moving forward, as using multiple document
 fields has been shown in both feature based IR models and neural models to be helpful.
 
+***
+
 Neural Vector Spaces for Unsupervised Information Retrieval (2018) <a href="https://arxiv.org/pdf/1708.02702.pdf">[paper]</a><br/>
 
 Synopsis:  This paper proposes a method for ranking documents in an unsupervised manner.
