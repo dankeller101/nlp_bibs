@@ -154,7 +154,8 @@ fields has been shown in both feature based IR models and neural models to be he
 
 ***
 
-Neural Vector Spaces for Unsupervised Information Retrieval (2018, TOIS) <a href="https://arxiv.org/pdf/1708.02702.pdf">[paper]</a><br/>
+<b>Neural Vector Spaces for Unsupervised Information Retrieval</b> (2018, TOIS) <a href="https://arxiv.org/pdf/1708.02702.pdf">[paper]</a><br/>
+Christophe Van Gysel, Maarten De Rijke, Evangelos Kanoulas
 
 Synopsis:  This paper proposes a method for ranking documents in an unsupervised manner.
 Using gradient descent, the model the paper proposes is able to build low-dimensional
